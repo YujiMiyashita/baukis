@@ -51,3 +51,12 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'nokogiri', '~> 1.6.1'
 #エラーメッシージと日付・時刻・通貨単位などの翻訳ファイルを集めたパッケージ
 gem 'rails-i18n', '~> 4.0.1'
+
+
+group :test do
+  gem 'rspec-rails', '~> 3.0.0.beta2'
+  gem 'spring-commands-rspec', '~> 1.0.1'
+  gem 'capybara', '~> 2.2.1'
+  gem 'factory_girl_rails', '~> 4.4.1'
+  gem 'database_cleaner', '~> 1.2.0'
+end
