@@ -43,3 +43,11 @@ group :development, :test do
   gem 'spring'
 end
 
+#JavascriptをRubyに組み込むためのパッケージ
+gem 'therubyracer',  platforms: :ruby
+#パスワードの暗号化
+gem 'bcrypt', '~> 3.1.7'
+#XML/HTMLの解析・生成のためのパッケージ
+gem 'nokogiri', '~> 1.6.1'
+#エラーメッシージと日付・時刻・通貨単位などの翻訳ファイルを集めたパッケージ
+gem 'rails-i18n', '~> 4.0.1'
