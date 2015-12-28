@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* 管理者　色関数 */
+/* グレー系 */
+/* マゼンタ系 */
+@charset "UTF-8";
+/* 寸法を変数で表現する */
+/* マージン・パディング */
+/* フォントサイズ */
+/* 行の高さ */
+@charset "UTF-8";
+/* 管理者　色関数 */
+/* グレー系 */
+/* マゼンタ系 */
+/* 寸法を変数で表現する */
+/* マージン・パディング */
+/* フォントサイズ */
+/* 行の高さ */
+/* 見出し(h1要素)のスタイル */
+/* line 7, /Users/YujiMiyashita/develop/baukis/app/assets/stylesheets/admin/container.css.scss */
+div#wrapper div#container h1 {
+  margin: 0;
+  padding: 9px 6px;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #331a33;
+  color: #eeeeee;
+}
+@charset "UTF-8";
+/* 管理者　スタイルシート */
+/* 管理者　色関数 */
+/* グレー系 */
+/* マゼンタ系 */
+/* 寸法を変数で表現する */
+/* マージン・パディング */
+/* フォントサイズ */
+/* 行の高さ */
+/* line 7, /Users/YujiMiyashita/develop/baukis/app/assets/stylesheets/admin/layout.css.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 13, /Users/YujiMiyashita/develop/baukis/app/assets/stylesheets/admin/layout.css.scss */
+div#wrapper {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  margin: 0 auto;
+  padding-bottom: 48px;
+  background-color: #cccccc;
+}
+
+/* ヘッダー */
+/* line 23, /Users/YujiMiyashita/develop/baukis/app/assets/stylesheets/admin/layout.css.scss */
+header {
+  padding: 6px;
+  background-color: #884488;
+  color: #fafafa;
+}
+/* line 27, /Users/YujiMiyashita/develop/baukis/app/assets/stylesheets/admin/layout.css.scss */
+header span.logo-mark {
+  font-weight: bold;
+}
+
+/* フッター */
+/* line 33, /Users/YujiMiyashita/develop/baukis/app/assets/stylesheets/admin/layout.css.scss */
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #666666;
+  color: #fafafa;
+}
+/* line 39, /Users/YujiMiyashita/develop/baukis/app/assets/stylesheets/admin/layout.css.scss */
+footer p {
+  text-align: center;
+  padding: 6px;
+  margin: 0;
+}
+/*
+
+ */
+
