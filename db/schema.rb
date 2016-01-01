@@ -35,8 +35,8 @@ ActiveRecord::Schema.define(version: 20151228165442) do
     t.date     "start_date",                                   null: false
     t.date     "end_date"
     t.boolean  "suspended",                    default: false, null: false
-    t.datetime "created_at",                                   null: false
-    t.datetime "updated_at",                                   null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "staff_members", ["email_for_index"], name: "index_staff_members_on_email_for_index", unique: true, using: :btree

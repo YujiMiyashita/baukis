@@ -12,7 +12,7 @@ class CreateStaffMembers < ActiveRecord::Migration
       t.date :end_date                                    #終了日
       t.boolean :suspended, null: false, default: false   #停止フラグ
 
-      t.timestamps null: false
+      t.timestamps
     end
 
     add_index :staff_members, :email_for_index, unique: true
